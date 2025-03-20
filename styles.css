@@ -35,14 +35,20 @@ hr {
   background-color: rgb(93, 93, 230);
   border-color: rgb(93, 93, 230);
 }
+.bottom-line {
+  margin-top: 25px;
+}
 
 h1,
 h2 {
   font-family: Impact, serif;
 }
 
+.item {
+  display: flex;
+  justify-content: space-between;
+}
 .item p {
-  display: inline;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
